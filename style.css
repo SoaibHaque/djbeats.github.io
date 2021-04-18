@@ -9,6 +9,7 @@ html{
 body {
     font-family: 'Lora', serif;
     text-align: center;
+    user-select: none;
 }
 div.image{
     width: 100%;
