@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 html{
     font-size: 0.625rem;
@@ -9,7 +10,6 @@ html{
 body {
     font-family: 'Lora', serif;
     text-align: center;
-    user-select: none;
 }
 div.image{
     width: 100%;
