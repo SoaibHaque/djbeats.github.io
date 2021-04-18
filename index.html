@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ - By Sekh Soaib Haque</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="dj.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="image"><img src="DJ.jpg" alt=""></div>
+    <h1>DJ SET</h1>
+    <div class="keys">
+        <div class="key bkey" data-key="67">C<br>
+            <p>Bass</p>
+        </div>
+        <div class="key bkey" data-key="86">V<br>
+            <p>Hi Hat</p>
+        </div>
+        <div class="key bkey" data-key="78">N<br>
+            <p>Kick</p>
+        </div> <br>
+        <div class="key bkey" data-key="32">Space<br>
+            <p>Snare</p>
+        </div>
+    </div>
+    <audio data-key="67" src="bass.mp3" id="bass"></audio>
+    <audio data-key="86" src="hat.wav" id="hat"></audio>
+    <audio data-key="78" src="kick.wav" id="kick"></audio>
+    <audio data-key="32" src="snare.wav" id="snare"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>
